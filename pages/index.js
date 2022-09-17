@@ -65,11 +65,11 @@ export default function Home({ exploreData, cardsData }) {
 }
 
 export async function getStaticProps() {
-    const exploreData = await fetch("https://links.papareact.com/pyp").then(
+    const exploreData = await fetch("https://fake-airbnbdata-api.herokuapp.com/home1").then(
         (res) => res.json()
     );
 
-    const cardsData = await fetch("https://links.papareact.com/zp1").then(
+    const cardsData = await fetch("https://fake-airbnbdata-api.herokuapp.com/home2").then(
         (res) => res.json()
     );
 
