@@ -52,12 +52,7 @@ function Header({placeholder}) {
         <header className="sticky top-0 z-50 grid grid-cols-3 bg-white shadow-md p-5 md:px-10">
             {/* left */}
             <div onClick={() => router.push("/")} className="relative flex items-center h-10 cursor-pointer my-auto">
-                <Image
-                    src="https://images-platform.99static.com//o0OArBkys5V-hzM_nHDCSxO9L20=/135x28:672x565/fit-in/500x500/99designs-contests-attachments/18/18609/attachment_18609440"
-                    layout = "fill"
-                    objectFit = "contain"
-                    objectPosition = "left"
-                />
+               <p><b>RentFolio</b></p>
             </div>
 
             {/* Middle - Search*/}
