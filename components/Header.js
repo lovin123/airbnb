@@ -52,8 +52,12 @@ function Header({placeholder}) {
         <header className="sticky top-0 z-50 grid grid-cols-3 bg-white shadow-md p-5 md:px-10">
             {/* left */}
             <div onClick={() => router.push("/")} className="relative flex items-center h-10 cursor-pointer my-auto">
-               <p><b>RentFolio</b></p>
-            </div>
+               <div className="grid min-h-screen place-items-center bg-gray-50">
+                   <div className="grid h-32 w-32 place-items-center rounded-2xl bg-sky-600">
+                       <div className="text-8xl font-bold text-white">RentFolio</div>
+                           </div>
+                           </div>
+             </div>
 
             {/* Middle - Search*/}
             <div className="flex items-center md:border-2 rounded-full py-2 md:shadow-sm">
