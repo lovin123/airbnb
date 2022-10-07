@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Image from "next/future/image";
+import Image from "next/image";
 import {
     SearchIcon,
     GlobeAltIcon,
@@ -53,8 +53,10 @@ function Header({placeholder}) {
             {/* left */}
             <div onClick={() => router.push("/")} className="relative flex items-center h-10 cursor-pointer my-auto">
                 <Image
-                    src="https://thumb.housinganywhere.com/img/logo-1200x630.png"
-                    className="w-full h-auto"
+                    src="https://images-platform.99static.com//o0OArBkys5V-hzM_nHDCSxO9L20=/135x28:672x565/fit-in/500x500/99designs-contests-attachments/18/18609/attachment_18609440"
+                    layout = "fill"
+                    objectFit = "contain"
+                    objectPosition = "left"
                 />
             </div>
 
