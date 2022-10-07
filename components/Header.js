@@ -54,9 +54,6 @@ function Header({placeholder}) {
             <div onClick={() => router.push("/")} className="relative flex items-center h-10 cursor-pointer my-auto">
                 <Image
                     src="https://thumb.housinganywhere.com/img/logo-1200x630.png"
-                    width="0"
-                    height="0"
-                    sizes="10vw"
                     className="w-full h-auto"
                 />
             </div>
