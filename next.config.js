@@ -1,4 +1,9 @@
 module.exports = {
+    experimental: {
+        images: {
+            allowFutureImage: true,
+        },
+    },
     images: {
         domains: ["links.papareact.com"]
     },
