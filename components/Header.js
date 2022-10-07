@@ -52,11 +52,7 @@ function Header({placeholder}) {
         <header className="sticky top-0 z-50 grid grid-cols-3 bg-white shadow-md p-5 md:px-10">
             {/* left */}
             <div onClick={() => router.push("/")} className="relative flex items-center h-10 cursor-pointer my-auto">
-               <div className="grid min-h-screen place-items-center bg-gray-50">
-                   <div className="grid h-32 w-32 place-items-center rounded-2xl bg-sky-600">
-                       <div className="text-8xl font-bold text-white">RentFolio</div>
-                           </div>
-                           </div>
+               <h5 className="text-2xl font-normal leading-normal mt-0 mb-2 text-pink-800">RentFolio</h5>
              </div>
 
             {/* Middle - Search*/}
