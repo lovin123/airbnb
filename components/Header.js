@@ -56,7 +56,7 @@ function Header({placeholder}) {
                     src="https://thumb.housinganywhere.com/img/logo-1200x630.png"
                     width="0"
                     height="0"
-                    sizes="100vw"
+                    sizes="10vw"
                     className="w-full h-auto"
                 />
             </div>
